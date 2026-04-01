@@ -42,13 +42,11 @@ Optional server env vars for debugging coordinates in the terminal are documente
 
 ## Demo recordings
 
-### Demo 1
+### Trying to Draw a Flower...
+https://github.com/user-attachments/assets/53dc1b20-feda-400b-ac77-19561f1b6250
 
-[![Trying to draw a flower...](demos/CanvasAI-1.mov)]
-
-### Demo 2
-
-[![Apparently stickmen are just lines...](demos/CanvasAI-2.mov)]
+### Apparently Stickmen are just Lines! Go AGI!
+https://github.com/user-attachments/assets/5969594f-416e-4838-b4da-f8717826a68e
 
 ## Motivation and what we learned
 
