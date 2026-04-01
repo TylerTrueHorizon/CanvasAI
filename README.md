@@ -42,7 +42,7 @@ Optional server env vars for debugging coordinates in the terminal are documente
 
 ## Demo recordings
 
-### Trying to Draw a Flower...
+### Nature is a Beautiful Thing
 https://github.com/user-attachments/assets/53dc1b20-feda-400b-ac77-19561f1b6250
 
 ### Apparently Stickmen are just Lines! Go AGI!
