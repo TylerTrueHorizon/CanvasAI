@@ -1,0 +1,15 @@
+{
+  "name": "canvas-ai",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run build -w @canvas-ai/shared && concurrently -n server,web -c blue,green \"npm run dev -w @canvas-ai/server\" \"npm run dev -w @canvas-ai/web\"",
+    "build": "npm run build -w @canvas-ai/shared && npm run build -w @canvas-ai/server && npm run build -w @canvas-ai/web",
+    "test": "npm run test -w @canvas-ai/shared"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
