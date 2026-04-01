@@ -44,11 +44,11 @@ Optional server env vars for debugging coordinates in the terminal are documente
 
 ### Demo 1
 
-<video src="demos/CanvasAI-1.mov" controls playsinline width="960"></video>
+[![Trying to draw a flower...](demos/CanvasAI-1.mov)]
 
 ### Demo 2
 
-<video src="demos/CanvasAI-2.mov" controls playsinline width="960"></video>
+[![Apparently stickmen are just lines...](demos/CanvasAI-2.mov)]
 
 ## Motivation and what we learned
 
