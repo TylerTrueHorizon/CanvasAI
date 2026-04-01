@@ -45,8 +45,8 @@ Optional server env vars for debugging coordinates in the terminal are documente
 ### Nature is a Beautiful Thing
 https://github.com/user-attachments/assets/53dc1b20-feda-400b-ac77-19561f1b6250
 
-### Apparently Stickmen are just Lines! Go AGI!
-https://github.com/user-attachments/assets/5969594f-416e-4838-b4da-f8717826a68e
+### Apparently Stickmen are just Lines! AGI has Arrived!
+https://github.com/user-attachments/assets/8d53f4a2-7471-4595-afcf-fd13fbc5950c
 
 ## Motivation and what we learned
 
@@ -58,10 +58,6 @@ That outcome supports three broader lessons:
 
 2. **What “intelligence” should mean** — These models excel at distributions they were trained on: long-form text, code-shaped artifacts, summarization, and other **text-native** tasks. They were **not** trained as general **2D raster agents** that emit stable coordinate streams under tight constraints. Strong performance on curated benchmarks does not automatically transfer to arbitrary geometric or embodied tasks. Calling that gap “general intelligence” overstates the case.
 
-3. **The right tool for the job** — Years before the current LLM wave, [Sketch RNN](https://github.com/tensorflow/magenta/tree/main/magenta/models/sketch_rnn) (originating from Google’s Magenta project) demonstrated **sequence models trained on huge doodle datasets** to complete or generate pen strokes in a representation close to human drawing. For **structured drawing completion**, that kind of **purpose-built** model is closer to the problem than a general LLM asked to improvise coordinates. Canvas AI reinforces that **“use an LLM” is not always the right default** when the task is inherently geometric or motor.
+3. **The right tool for the job** — Years before the current LLM wave, [Sketch RNN](https://github.com/tensorflow/magenta/tree/main/magenta/models/sketch_rnn) (originating from Google’s Magenta project) demonstrated **sequence models trained on huge doodle datasets** to complete or generate pen strokes in a representation close to human drawing. For **structured drawing completion**, that kind of **purpose-built** model is closer to the problem than a general LLM asked to improvise coordinates. Canvas AI reinforces that **“use an LLM” is not always the right default**.
 
 Canvas AI remains a useful **toy benchmark**: small, inspectable, and honest about where token predictors stop being “do anything” brains—especially when the anything is **drawing in space**.
-
-## License
-
-This project is private / as-is unless you add an explicit license.
